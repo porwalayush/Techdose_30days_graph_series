@@ -1,5 +1,5 @@
 // directed graph cycle detection using graph coloring
-// 0=untracked  1=processing 2=processed
+// 0=untracked  1=processing 2=processed   O(V+E)
 class Solution {
 public:
     int color[100010];
